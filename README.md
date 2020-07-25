@@ -66,7 +66,7 @@ Sample Output:
 -------------
 ACCGGGTTTT
 
-Wascally Wabbits:
+Rabbits and Recurrence Relations:
 -----------------
 A sequence is an ordered collection of objects (usually numbers), which are allowed to repeat. Sequences can be finite or infinite. Two examples are the finite sequence (π,−2–√,0,π) and the infinite sequence of odd numbers (1,3,5,7,9,…). We use the notation an to represent the n-th term of a sequence.
 
