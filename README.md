@@ -79,8 +79,27 @@ Given: Positive integers n≤40 and k≤5.
 Return: The total number of rabbit pairs that will be present after n months, if we begin with 1 pair and in each generation, every pair of reproduction-age rabbits produces a litter of k rabbit pairs (instead of only 1 pair).
 
 Sample Dataset :
----------------
+--------------
 5 3
+
 Sample Output :
----------------
+--------------
 19
+
+Evolution as a Sequence of Mistakes:
+----------------------------------
+
+Given two strings s and t of equal length, the Hamming distance between s and t, denoted dH(s,t), is the number of corresponding symbols that differ in s and t. See Figure 2.
+
+Given: Two DNA strings s and t of equal length (not exceeding 1 kbp).
+
+Return: The Hamming distance dH(s,t).
+
+Sample Dataset:
+-------------
+GAGCCTACTAACGGGAT
+CATCGTAATGACGGCCT
+
+Sample Output:
+---------
+7
