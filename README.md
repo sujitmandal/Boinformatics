@@ -34,6 +34,8 @@ Sample Output :
 
 Transcribing DNA into RNA :
 ---------------------------
+link : http://rosalind.info/problems/rna/
+
 An RNA string is a string formed from the alphabet containing 'A', 'C', 'G', and 'U'.
 
 Given a DNA string t corresponding to a coding strand, its transcribed RNA string u is formed by replacing all occurrences of 'T' in t with 'U' in u.
@@ -52,6 +54,8 @@ GAUGGAACUUGACUACGUAAAUU
 
 Complementing a Strand of DNA:
 -----------------------------
+link : http://rosalind.info/problems/revc/
+
 In DNA strings, symbols 'A' and 'T' are complements of each other, as are 'C' and 'G'.
 
 The reverse complement of a DNA string s is the string sc formed by reversing the symbols of s, then taking the complement of each symbol (e.g., the reverse complement of "GTCA" is "TGAC").
@@ -69,7 +73,9 @@ Sample Output:
 ACCGGGTTTT
 
 Rabbits and Recurrence Relations:
------------------
+-----------------------------
+link : http://rosalind.info/problems/fib/
+
 A sequence is an ordered collection of objects (usually numbers), which are allowed to repeat. Sequences can be finite or infinite. Two examples are the finite sequence (π,−2–√,0,π) and the infinite sequence of odd numbers (1,3,5,7,9,…). We use the notation an to represent the n-th term of a sequence.
 
 A recurrence relation is a way of defining the terms of a sequence with respect to the values of previous terms. In the case of Fibonacci's rabbits from the introduction, any given month will contain the rabbits that were alive the previous month, plus any new offspring. A key observation is that the number of offspring in any month is equal to the number of rabbits that were alive two months prior. As a result, if Fn represents the number of rabbit pairs alive after the n-th month, then we obtain the Fibonacci sequence having terms Fn that are defined by the recurrence relation Fn=Fn−1+Fn−2 (with F1=F2=1 to initiate the sequence). Although the sequence bears Fibonacci's name, it was known to Indian mathematicians over two millennia ago.
@@ -90,6 +96,8 @@ Sample Output :
 
 Counting Point Mutations :
 ------------------------
+link : http://rosalind.info/problems/hamm/
+
 
 Given two strings s and t of equal length, the Hamming distance between s and t, denoted dH(s,t), is the number of corresponding symbols that differ in s and t. See Figure 2.
 
