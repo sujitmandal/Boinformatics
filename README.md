@@ -133,6 +133,7 @@ Return: All locations of t as a substring of s.
 Sample Dataset :
 ---------------
 GATATATGCATATACTT
+
 ATAT
 
 Sample Output:
