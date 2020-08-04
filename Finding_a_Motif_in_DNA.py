@@ -18,7 +18,7 @@ def Motif_in_DNA(x,y):
     for i in range(len(x)):
         i = i + 1
         j = j + 1
-        if x[i:j] == t:
+        if x[i:j] == y:
             count = i + 1
             temp.append(count)
 
