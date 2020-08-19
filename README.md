@@ -1,19 +1,12 @@
-# Boinformatics :
------------------
-
+## Boinformatics :
 Rosalind is a platform for learning bioinformatics and programming through problem solving. Take a tour to get the hang of how Rosalind works.
 
-Rosalind Link : http://rosalind.info/problems/list-view/
+[Rosalind](http://rosalind.info/problems/list-view/)
 
+[My Badges Link](http://rosalind.info/users/sujit_mandal/)
 
-My Badges Link : http://rosalind.info/users/sujit_mandal/
-
-Problems : 
-----------
-
-Counting DNA Nucleotides :
---------------------------
-link : http://rosalind.info/problems/dna/
+## roblems : 
+[Counting DNA Nucleotides](http://rosalind.info/problems/dna/)
 
 A string is simply an ordered collection of symbols selected from some alphabet and formed into a word; the length of a string is the number of symbols that it contains.
 
@@ -22,7 +15,7 @@ An example of a length 21 DNA string (whose alphabet contains the symbols 'A', '
 Given: A DNA string s of length at most 1000 nt.
 
 Return: Four integers (separated by spaces) counting the respective number of times that the symbols 'A', 'C', 'G', and 'T' occur in s.
-
+```
 Sample Dataset :
 ----------------
 AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC
@@ -30,11 +23,9 @@ AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC
 Sample Output :
 -------------
 20 12 17 21
+```
 
-
-Transcribing DNA into RNA :
----------------------------
-link : http://rosalind.info/problems/rna/
+[Transcribing DNA into RNA](http://rosalind.info/problems/rna/)
 
 An RNA string is a string formed from the alphabet containing 'A', 'C', 'G', and 'U'.
 
@@ -43,7 +34,7 @@ Given a DNA string t corresponding to a coding strand, its transcribed RNA strin
 Given: A DNA string t having length at most 1000 nt.
 
 Return: The transcribed RNA string of t.
-
+```
 Sample Dataset:
 ---------------
 GATGGAACTTGACTACGTAAATT
@@ -51,10 +42,8 @@ GATGGAACTTGACTACGTAAATT
 Sample Output:
 --------------
 GAUGGAACUUGACUACGUAAAUU
-
-Complementing a Strand of DNA:
------------------------------
-link : http://rosalind.info/problems/revc/
+```
+[Complementing a Strand of DNA](http://rosalind.info/problems/revc/)
 
 In DNA strings, symbols 'A' and 'T' are complements of each other, as are 'C' and 'G'.
 
@@ -63,7 +52,7 @@ The reverse complement of a DNA string s is the string sc formed by reversing th
 Given: A DNA string s of length at most 1000 bp.
 
 Return: The reverse complement sc of s.
-
+```
 Sample Dataset:
 --------------
 AAAACCCGGT
@@ -71,10 +60,8 @@ AAAACCCGGT
 Sample Output:
 -------------
 ACCGGGTTTT
-
-Rabbits and Recurrence Relations:
------------------------------
-link : http://rosalind.info/problems/fib/
+```
+[Rabbits and Recurrence Relations](http://rosalind.info/problems/fib/)
 
 A sequence is an ordered collection of objects (usually numbers), which are allowed to repeat. Sequences can be finite or infinite. Two examples are the finite sequence (π,−2–√,0,π) and the infinite sequence of odd numbers (1,3,5,7,9,…). We use the notation an to represent the n-th term of a sequence.
 
@@ -85,7 +72,7 @@ When finding the n-th term of a sequence defined by a recurrence relation, we ca
 Given: Positive integers n≤40 and k≤5.
 
 Return: The total number of rabbit pairs that will be present after n months, if we begin with 1 pair and in each generation, every pair of reproduction-age rabbits produces a litter of k rabbit pairs (instead of only 1 pair).
-
+```
 Sample Dataset :
 --------------
 5 3
@@ -93,18 +80,15 @@ Sample Dataset :
 Sample Output :
 --------------
 19
-
-Counting Point Mutations :
-------------------------
-link : http://rosalind.info/problems/hamm/
-
+```
+[Counting Point Mutations]( http://rosalind.info/problems/hamm/)
 
 Given two strings s and t of equal length, the Hamming distance between s and t, denoted dH(s,t), is the number of corresponding symbols that differ in s and t. See Figure 2.
 
 Given: Two DNA strings s and t of equal length (not exceeding 1 kbp).
 
 Return: The Hamming distance dH(s,t).
-
+```
 Sample Dataset:
 -------------
 GAGCCTACTAACGGGAT
@@ -113,10 +97,8 @@ CATCGTAATGACGGCCT
 Sample Output:
 ---------
 7
-
-Finding a Motif in DNA:
------------------------
-link : http://rosalind.info/problems/subs/
+```
+[Finding a Motif in DNA](http://rosalind.info/problems/subs/)
 
 Given two strings s and t, t is a substring of s if t is contained as a contiguous collection of symbols in s (as a result, t must be no longer than s).
 
@@ -129,7 +111,7 @@ The location of a substring s[j:k] is its beginning position j; note that t will
 Given: Two DNA strings s and t (each of length at most 1 kbp).
 
 Return: All locations of t as a substring of s.
-
+```
 Sample Dataset :
 ---------------
 GATATATGCATATACTT
@@ -139,10 +121,8 @@ ATAT
 Sample Output:
 ------------
 2 4 10
-
-Mendel's First Law:
-------------------
-link : http://rosalind.info/problems/iprb/
+```
+[Mendel's First Law](http://rosalind.info/problems/iprb/)
 
 Probability is the mathematical study of randomly occurring phenomena. We will model such a phenomenon with a random variable, which is simply a variable that can take a number of different distinct outcomes depending on the result of an underlying random process.
 
@@ -155,8 +135,7 @@ An event is simply a collection of outcomes. Because outcomes are distinct, the 
 Given: Three positive integers k, m, and n, representing a population containing k+m+n organisms: k individuals are homozygous dominant for a factor, m are heterozygous, and n are homozygous recessive.
 
 Return: The probability that two randomly selected mating organisms will produce an individual possessing a dominant allele (and thus displaying the dominant phenotype). Assume that any two organisms can mate.
-
-
+```
 Sample Dataset:
 --------------
 2 2 2
@@ -164,3 +143,4 @@ Sample Dataset:
 Sample Output:
 ------------
 0.78333
+```
